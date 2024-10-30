@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Image/Train\ .jpeg");
+     background-size:cover; 
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+ button{
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+font-weight: bold;
+width: 200px;
+margin-bottom: 5px;
+margin-top: 30px;
+border-radius: 5px;
+margin-left: 550px;
+
+ }
+ #increment-btn{
+    background-color: darkred;
+    width: 200px;
+    
+ }
+#save-btn{
+    background-color: green;
+    width: 200px;
+}
+#increment-btn{
+    background: darkred;
+}
+#save-el{
+    margin-left: 550px;
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+
+}
+
+@media screen and (max-width: 767px){
+    h1{
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: -180px;
+    }
+    
+    h2{
+        margin-left: -180px;
+        font-size: 25px;
+    }
+
+    button{
+        margin-left: 18px;
+        margin-right: 5px;
+        
+    }
+    #save-btn{
+        width: 150px;
+    }
+    #increment-btn{
+        width: 150px;
+    
+    }
+    #save-el{
+        font-size: 20px;
+        margin-left: 1px;
+    }
+}
